@@ -79,13 +79,19 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - alacritty
+  - balenaetcher
+  - discord
   - docker
   - font-fira-code
   - font-inconsolata
   - firefox
+  - gitkraken
   - google-chrome
   - mounty
   - nordvpn
+  - proxyman
+  - qbittorrent
   - raycast
   - sequel-ace
   - simplenote
@@ -93,6 +99,9 @@ homebrew_cask_apps:
   - sublime-text
   - telegram-desktop
   - transmit
+  - visual-studio-code
+  - vlc
+  - zoom
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
