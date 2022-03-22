@@ -37,6 +37,7 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - antigen
   - autoconf
   - bash-completion
   - bat
