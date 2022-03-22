@@ -57,7 +57,6 @@ homebrew_installed_packages:
   - neovim
   - nmap
   - node
-  - nvm
   - peco
   - php
   - readline
