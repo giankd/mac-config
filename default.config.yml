@@ -80,6 +80,7 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - alacritty
+  - android-studio
   - balenaetcher
   - discord
   - docker
@@ -121,10 +122,15 @@ gem_packages: []
 # - name: bundler
 #   state: present # present/absent/latest, default: present
 #   version: "~> 1.15.1" # default: N/A
-npm_packages: []
+# npm_packages: []
 # - name: webpack
 #   state: present # present/absent/latest, default: present
 #   version: "^2.6" # default: N/A
+npm_packages:
+  - name: tsc
+    state: latest
+  - name: fixjson
+    state: latest
 pip_packages: []
 # - name: mkdocs
 #   state: present # present/absent/latest, default: present
