@@ -92,6 +92,7 @@ homebrew_cask_apps:
   - mounty
   - nordvpn
   - notion
+  - postman
   - proxyman
   - qbittorrent
   - raycast
