@@ -89,7 +89,6 @@ homebrew_cask_apps:
   - firefox
   - gitkraken
   - google-chrome
-  - jdownloader
   - mounty
   - nordvpn
   - notion
