@@ -41,11 +41,14 @@ homebrew_installed_packages:
   - autoconf
   - bash-completion
   - bat
+  - difftastic
+  - duf
   - exa
   - fd
   - fzf
   - gettext
   - git
+  - git-delta
   - ghq
   - httpie
   - htop
@@ -67,6 +70,7 @@ homebrew_installed_packages:
   - stow
   - pv
   - the_silver_searcher
+  - thefuck
   - tmux
   - wget
   - wrk
