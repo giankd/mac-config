@@ -50,6 +50,7 @@ homebrew_installed_packages:
   - git
   - git-delta
   - ghq
+  - go
   - httpie
   - htop
   - iperf
