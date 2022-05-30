@@ -38,6 +38,9 @@
     #   when: configure_osx
     #   tags: ['osx']
 
+    - import_tasks: tasks/ssh_keys.yml
+      tags: ['ssh']
+
     - import_tasks: tasks/extra-packages.yml
       tags: ['extra-packages']
 

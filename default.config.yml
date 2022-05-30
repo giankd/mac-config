@@ -34,6 +34,26 @@ dotfiles_files:
   - .inputrc
   - .osx
   - .vimrc
+# SSH keys
+ssh_keys:
+  - src: "./.ssh/bb_id_rsa"
+    dest: "{{ lookup('env', 'HOME') }}/.ssh/bb_id_rsa"
+  - src: "./.ssh/id_ed25519"
+    dest: "{{ lookup('env', 'HOME') }}/.ssh/id_ed25519"
+  - src: "./.ssh/gitkraken_rsa"
+    dest: "{{ lookup('env', 'HOME') }}/.ssh/gitkraken_rsa"
+ssh_pub_keys:
+  - src: "./.ssh/bb_id_rsa.pub"
+    dest: "{{ lookup('env', 'HOME') }}/.ssh/bb_id_rsa.pub"
+  - src: "./.ssh/id_ed25519.pub"
+    dest: "{{ lookup('env', 'HOME') }}/.ssh/id_ed25519.pub"
+  - src: "./.ssh/gitkraken_rsa.pub"
+    dest: "{{ lookup('env', 'HOME') }}/.ssh/gitkraken_rsa.pub"
+ssh_config:
+  - src: "./.ssh/config"
+    dest: "{{ lookup('env', 'HOME') }}/.ssh/config"
+  - src: "./.ssh/known_hosts"
+    dest: "{{ lookup('env', 'HOME') }}/.ssh/known_hosts"
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
