@@ -116,6 +116,8 @@ homebrew_cask_apps:
   - firefox
   - gitkraken
   - google-chrome
+  - keepingyouawake
+  - meld
   - mounty
   - nordvpn
   - notion
@@ -127,6 +129,7 @@ homebrew_cask_apps:
   - simplenote
   - slack
   - spotify
+  - stats
   - sublime-text
   - telegram-desktop
   - transmit
