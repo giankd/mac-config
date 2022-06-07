@@ -7,16 +7,44 @@ configure_terminal: false
 configure_osx: false 
 
 # Set to 'true' to configure the Dock via dockutil.
-configure_dock: false
-dockitems_remove: []
-# - Launchpad
-# - TV
-# - Podcasts
-# - 'App Store'
-dockitems_persist: []
-# - name: "Sublime Text"
-#   path: "/Applications/Sublime Text.app/"
-#   pos: 5
+configure_dock: true 
+dockitems_remove: 
+  - TV
+  - Musica
+  - Safari
+  - Mail
+  - Mappe
+  - Foto
+  - FaceTime
+  - Calendario
+  - Contatti
+  - Promemoria
+  - Note
+  - 'Preferenze di Sistema'
+  - Podcasts
+  - 'App Store'
+dockitems_persist: 
+  - name: "Google Chrome"
+    path: "/Applications/Google Chrome.app/"
+    pos: 3
+  - name: "Firefox"
+    path: "/Applications/Firefox.app/"
+    pos: 4
+  - name: "Alacritty"
+    path: "/Applications/Alacritty.app/"
+    pos: 5
+  - name: "Visual Studio Code"
+    path: "/Applications/Visual Studio Code.app/"
+    pos: 6
+  - name: "Proxyman"
+    path: "/Applications/Proxyman.app/"
+    pos: 7
+  - name: "Spark"
+    path: "/Applications/Spark.app/"
+    pos: 8
+  - name: "Cron"
+    path: "/Applications/Cron.app/"
+    pos: 9
 
 configure_sudoers: false
 sudoers_custom_config: ''
