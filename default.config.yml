@@ -76,6 +76,7 @@ homebrew_installed_packages:
   - htop
   - iperf
   - lazydocker
+  - jesseduffield/lazydocker/lazydocker
   - libevent
   - sqlite
   - mas
@@ -103,7 +104,6 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-fonts
-  - jesseduffield/lazydocker/lazydocker
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
