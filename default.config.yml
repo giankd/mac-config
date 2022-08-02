@@ -90,6 +90,7 @@ homebrew_installed_packages:
   - autoconf
   - bash-completion
   - bat
+  - commitizen
   - difftastic
   - duf
   - exa
