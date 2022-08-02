@@ -106,6 +106,7 @@ homebrew_installed_packages:
   - iperf
   - lazydocker
   - jesseduffield/lazydocker/lazydocker
+  - jesseduffield/lazygit/lazygit
   - libevent
   - sqlite
   - mas
