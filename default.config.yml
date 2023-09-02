@@ -141,6 +141,7 @@ homebrew_cask_apps:
   - alacritty
   - android-studio
   - balenaetcher
+  - brave-browser
   - cyberduck
   - discord
   - docker
