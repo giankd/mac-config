@@ -97,33 +97,36 @@ homebrew_installed_packages:
   - fd
   - fzf
   - gettext
+  - ghq
   - git
   - git-delta
-  - ghq
+  - git-flow
   - go
-  - httpie
   - htop
+  - httpie
   - iperf
   - lazydocker
-  - jesseduffield/lazydocker/lazydocker
-  - jesseduffield/lazygit/lazygit
+  - lazygit
   - libevent
-  - sqlite
   - mas
   - mcrypt
+  - mkcert
+  - sqlite
   - neovim
   - nmap
   - node
+  - nss
+  - openssl@3
   - peco
   - php
   - pnpm
-  - readline
+  - pv
+  - release-it
   - ripgrep
-  - openssl
+  - readline
   - shellcheck
   - shfmt
   - stow
-  - pv
   - the_silver_searcher
   - thefuck
   - tmux
@@ -132,9 +135,13 @@ homebrew_installed_packages:
   - zsh-history-substring-search
 
 homebrew_taps:
+  - homebrew/bundle
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-fonts
+  - homebrew/cask-versions
+  - jesseduffield/lazydocker
+  - jesseduffield/lazygit
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -203,6 +210,8 @@ npm_packages:
   - name: write-good
     state: latest
   - name: ni
+    state: latest
+  - name: qnm
     state: latest
 pip_packages: []
 # - name: mkdocs
