@@ -1,7 +1,6 @@
 # TODO
 downloads: ~/.ansible-downloads/
 
-# TODO
 configure_dotfiles: false
 configure_terminal: false
 configure_osx: false
@@ -45,23 +44,6 @@ dockitems_persist:
   - name: "Cron"
     path: "/Applications/Cron.app/"
     pos: 9
-
-configure_sudoers: false
-sudoers_custom_config: ''
-# Example:
-# sudoers_custom_config: |
-#   # Allow users in admin group to use sudo with no password.
-#   %admin ALL=(ALL) NOPASSWD: ALL
-
-# dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-# dotfiles_repo_accept_hostkey: true
-# dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
-# dotfiles_files:
-#   - .zshrc
-#   - .gitignore
-#   - .inputrc
-#   - .osx
-#   - .vimrc
 
 # SSH keys
 ssh_keys:
@@ -182,10 +164,16 @@ homebrew_cask_apps:
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 # mas_installed_apps: []
+mas_installed_apps:
+  - { id: 1102004240, name: "iHosts" }
+  - { id: 472226235, name: "LanScan" }
+  - { id: 409201541, name: "Pages" }
+  - { id: 1176895641, name: "Spark" }
+  - { id: 409183694, name: "Keynote" }
+  - { id: 497799835, name: "Xcode" }
+  - { id: 409203825, name: "Numbers" }
 # mas_email: ""
 # mas_password: ""
-
-# osx_script: "~/.osx --no-restart"
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
