@@ -75,6 +75,7 @@ homebrew_installed_packages:
   - autoconf
   - bash-completion
   - bat
+  - bun
   - commitizen
   - difftastic
   - duf
@@ -121,12 +122,11 @@ homebrew_installed_packages:
 
 homebrew_taps:
   - homebrew/bundle
-  - homebrew/core
-  - homebrew/cask
   - homebrew/cask-fonts
   - homebrew/cask-versions
   - jesseduffield/lazydocker
   - jesseduffield/lazygit
+  - oven-sh/bun
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
