@@ -114,6 +114,7 @@ homebrew_installed_packages:
   - shellcheck
   - shfmt
   - stow
+  - tailspin
   - the_silver_searcher
   - thefuck
   - tmux
