@@ -148,6 +148,7 @@ homebrew_cask_apps:
   - google-chrome
   - jdownloader
   - keepingyouawake
+  - local # WP Development
   - meld
   - mounty
   - nordvpn
