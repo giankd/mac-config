@@ -207,6 +207,8 @@ npm_packages:
     state: latest
   - name: qnm
     state: latest
+  - name: degit
+    state: latest
 pip_packages: []
 # - name: mkdocs
 #   state: present # present/absent/latest, default: present
