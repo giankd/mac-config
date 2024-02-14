@@ -15,3 +15,7 @@ Install Ansible: `pip3 install ansible`
 
 Note: If some Homebrew commands fail, you might need to agree to Xcode's license or fix some other Brew issue. Run `brew doctor` to see if this is the case.
 
+
+## Run single task
+
+You can also run single tasks with: `ansible-playbook main.yml --ask-become-pass --tags <any tag defined in main.yml>`
