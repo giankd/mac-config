@@ -78,7 +78,7 @@ homebrew_installed_packages:
   - bun
   - commitizen
   - difftastic
-  - dotnet
+  - dua-cli
   - duf
   - exa
   - fd
@@ -135,18 +135,20 @@ homebrew_cask_apps:
   - alacritty
   - android-studio
   - balenaetcher
-  - brave-browser
   - cyberduck
   - discord
   - docker
   - firefox
+  - fontbase
   - font-fira-code
   - font-hack-nerd-font
   - font-inconsolata
   - gas-mask
   - gitkraken
+  - godot
   - google-chrome
   - jdownloader
+  - krita
   - keepingyouawake
   - local # WP Development
   - meld
@@ -163,7 +165,7 @@ homebrew_cask_apps:
   - sublime-text
   - telegram-desktop
   - temurin
-  - transmit
+  - alex313031-thorium
   - visual-studio-code
   - vlc
   - zoom
