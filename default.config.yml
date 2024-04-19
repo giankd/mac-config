@@ -137,7 +137,6 @@ homebrew_cask_apps:
   - balenaetcher
   - cyberduck
   - discord
-  - docker
   - firefox
   - fontbase
   - font-fira-code
@@ -151,7 +150,6 @@ homebrew_cask_apps:
   - krita
   - keepingyouawake
   - local # WP Development
-  - meld
   - mounty
   - nordvpn
   - notion
@@ -165,7 +163,6 @@ homebrew_cask_apps:
   - sublime-text
   - telegram-desktop
   - temurin
-  - alex313031-thorium
   - visual-studio-code
   - vlc
   - zoom
