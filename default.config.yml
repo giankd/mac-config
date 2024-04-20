@@ -78,6 +78,7 @@ homebrew_installed_packages:
   - bun
   - commitizen
   - difftastic
+  - docker
   - dua-cli
   - duf
   - exa
