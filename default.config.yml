@@ -80,6 +80,7 @@ homebrew_installed_packages:
   - commitizen
   - difftastic
   - docker
+  - docker-completion
   - dua-cli
   - duf
   - eza
@@ -126,14 +127,13 @@ homebrew_installed_packages:
 
 homebrew_taps:
   - homebrew/bundle
-  - homebrew/cask-fonts
-  - homebrew/cask-versions
   - jesseduffield/lazydocker
   - jesseduffield/lazygit
   - oven-sh/bun
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - 1password
   - alacritty
   - android-studio
   - balenaetcher
@@ -145,11 +145,11 @@ homebrew_cask_apps:
   - font-hack-nerd-font
   - font-inconsolata
   - gas-mask
-  - gitkraken
+  - gimp
   - godot
   - google-chrome
+  - inkscape
   - jdownloader
-  - krita
   - keepingyouawake
   - local # WP Development
   - mounty
@@ -160,7 +160,6 @@ homebrew_cask_apps:
   - qbittorrent
   - raycast
   - responsively
-  - sequel-ace
   - slack
   - spotify
   - sublime-text
