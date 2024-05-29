@@ -159,6 +159,7 @@ homebrew_cask_apps:
   - proxyman
   - qbittorrent
   - raycast
+  - responsively
   - sequel-ace
   - slack
   - spotify
