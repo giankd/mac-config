@@ -123,6 +123,7 @@ homebrew_installed_packages:
   - tmux
   - wget
   - wrk
+  - zoxide
   - zsh-history-substring-search
 
 homebrew_taps:
