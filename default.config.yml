@@ -95,6 +95,7 @@ homebrew_installed_packages:
   - htop
   - httpie
   - iperf
+  - jandedobbeleer/oh-my-posh/oh-my-posh
   - lazydocker
   - lazygit
   - libevent
@@ -128,6 +129,7 @@ homebrew_installed_packages:
 
 homebrew_taps:
   - homebrew/bundle
+  - jandedobbeleer/oh-my-posh
   - jesseduffield/lazydocker
   - jesseduffield/lazygit
   - oven-sh/bun
