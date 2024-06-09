@@ -26,27 +26,9 @@ dockitems_remove:
   - Podcasts
   - 'App Store'
 dockitems_persist:
-  # - name: "Google Chrome"
-  #   path: "/Applications/Google Chrome.app/"
-  #   pos: 3
-  # - name: "Firefox"
-  #   path: "/Applications/Firefox.app/"
-  #   pos: 4
   - name: "Alacritty"
     path: "/Applications/Alacritty.app/"
     pos: 1
-  # - name: "Visual Studio Code"
-  #   path: "/Applications/Visual Studio Code.app/"
-  #   pos: 6
-  # - name: "Proxyman"
-  #   path: "/Applications/Proxyman.app/"
-  #   pos: 7
-  # - name: "Spark"
-  #   path: "/Applications/Spark.app/"
-  #   pos: 8
-  # - name: "Cron"
-  #   path: "/Applications/Cron.app/"
-  #   pos: 9
 
 # SSH keys
 ssh_keys:
@@ -141,18 +123,13 @@ homebrew_cask_apps:
   - android-studio
   - balenaetcher
   - cyberduck
-  - discord
   - firefox
   - fontbase
   - font-fira-code
   - font-hack-nerd-font
   - font-inconsolata
   - gas-mask
-  - gimp
-  - godot
   - google-chrome
-  - inkscape
-  - jdownloader
   - keepingyouawake
   - local # WP Development
   - mounty
@@ -217,8 +194,6 @@ pip_packages: []
 # - name: mkdocs
 #   state: present # present/absent/latest, default: present
 #   version: "0.16.3" # default: N/A
-
-# Set to 'true' to configure Sublime Text.
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
