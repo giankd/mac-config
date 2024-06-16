@@ -118,6 +118,7 @@ homebrew_installed_packages:
   - shellcheck
   - shfmt
   - stow
+  - stylua
   - tailspin
   - the_silver_searcher
   - thefuck
