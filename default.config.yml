@@ -114,6 +114,7 @@ homebrew_installed_packages:
   - release-it
   - ripgrep
   - readline
+  - rust
   - shellcheck
   - shfmt
   - stow
