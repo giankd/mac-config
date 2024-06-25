@@ -80,6 +80,7 @@ homebrew_installed_packages:
   - lazydocker
   - lazygit
   - libevent
+  - luarocks
   - mas
   - mcrypt
   - mkcert
@@ -96,6 +97,7 @@ homebrew_installed_packages:
   - release-it
   - ripgrep
   - readline
+  - rust
   - shellcheck
   - shfmt
   - stow
