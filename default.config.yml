@@ -75,6 +75,7 @@ homebrew_installed_packages:
   - go
   - htop
   - httpie
+  - httrack
   - iperf
   - jandedobbeleer/oh-my-posh/oh-my-posh
   - lazydocker
