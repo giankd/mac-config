@@ -103,6 +103,7 @@ homebrew_installed_packages:
   - mas
   - mcrypt
   - mkcert
+  - multi-git-status
   - sqlite
   - neovim
   - nmap
