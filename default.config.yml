@@ -170,6 +170,7 @@ homebrew_cask_apps:
   - slack
   - spotify
   - sublime-text
+  - syncthing
   - telegram-desktop
   - temurin
   - visual-studio-code
